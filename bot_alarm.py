@@ -101,8 +101,9 @@ class BotAlarm:
         # found, date_sg = self.check_run_process()
         if not found:
             self.report_wrong(date_sg)
-        elif found and self.report_correct:
-            self.report_ok(date_sg)  # Just to check if it works fine
+        elif found:
+            if self.report_correct:
+                self.report_ok(date_sg)  # Just to check if it works fine
         else:
             self.send_text("Something strange is happening with BotAlarm.")
 
