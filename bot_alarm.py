@@ -43,6 +43,11 @@ class BotAlarm:
         response = requests.get(url)
         return response.json()
 
+    def send_documentation(self):
+        self.send_text("Here is the documetation, "
+                       "Scroll-down and read the README:\n"
+                       "https://github.com/MCruces-fz/TRAGALDABAS-alarm")
+
     def report_wrong(self, date_segment: str):
         """
         Report Error Message

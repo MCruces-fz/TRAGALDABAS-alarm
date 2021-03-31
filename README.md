@@ -68,6 +68,10 @@ you can import the json library and do this
 import json
 
 print(json.dumps(update, indent=1))
+
+
+# The link of this documentation sent by Telegram message:
+bot.send_documentation()
 ```
 
 
