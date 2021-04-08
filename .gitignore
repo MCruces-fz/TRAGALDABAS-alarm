@@ -8,7 +8,6 @@ __pycache__/
 
 # My gitignores:
 .idea/
-scp_mcruces.sh
 keys.py
 
 # Distribution / packaging
