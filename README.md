@@ -15,7 +15,7 @@ When the system is not saving data in the corresponding directory for whatever r
 > > **bot_groupID** = `*****`
 
 ## How To:
-This is a little documentation to us this bot
+This is a little documentation to use this bot
 
 ### Start using it:
 
@@ -81,3 +81,8 @@ bot.send_documentation()
 [How to create a Telegram Bot and send messages with Python](https://medium.com/@ManHay_Hong/how-to-create-a-telegram-bot-and-send-messages-with-python-4cf314d9fa3e)
 
 [Sending messages with Telegram bot (To a Telegram Group)](https://dev.to/rizkyrajitha/get-notifications-with-telegram-bot-537l)
+
+TRAGALDABAS Logo                           |  Alarm Screenshot
+:-----------------------------------------:|:-----------------------------------------------------:
+![Telegram alarm](./store/TRAGAS-logo.png) | ![Telegram alarm](./store/TRAGAS-alarm-screenshot.jpg) 
+
